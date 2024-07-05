@@ -37,7 +37,7 @@ function nextLevel() {
 
 // step 4
 
-document.addEventListener("keydown", function (event) {
+document.addEventListener("touchstart", function (event) {
     if (!gameStarted) {
         gameStarted = true;
         nextLevel();
