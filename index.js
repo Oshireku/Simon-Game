@@ -47,6 +47,16 @@ document.addEventListener("touchstart", function (event) {
 
     }
 });
+document.addEventListener("keydown", function (event) {
+    if (!gameStarted) {
+        gameStarted = true;
+        nextLevel();
+
+
+
+
+    }
+});
 
 // step 5
 
