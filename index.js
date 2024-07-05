@@ -97,7 +97,7 @@ function validateAnswer(userLevel) {
     } else {
         playSound("wrong");
         document.body.classList.add("game-over");
-        heading.innerHTML = "Game Over, Press any Key to Restart"
+        heading.innerHTML = "Game Over, Touch the screen or Press any Key to Restart"
         setTimeout(function () {
             document.body.classList.remove("game-over");
         }, 200);
